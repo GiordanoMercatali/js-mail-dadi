@@ -21,6 +21,8 @@ A program that checks if the user's email address has access to the site.
 
 Tell the user if they can access or not.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Exercise 2
 
 A program that generates a random number between 1 and 6, twice (for user and computer).
