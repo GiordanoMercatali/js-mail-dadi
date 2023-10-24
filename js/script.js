@@ -1,5 +1,6 @@
 // EXERCISE 1
-const mailList = ["mickey@mouse.com", "donald@duck.com", "goofy@goof.com"]
+const mailList = ["mickey@mouse.com", "donald@duck.com", "goofy@goof.com"];
+console.log(mailList);
 // let userMail = "";
 let access = "";
 let accessGranted = false;
@@ -11,9 +12,8 @@ const sendBtn = document.getElementById("send");
 
 sendBtn.addEventListener("click", function(){
     const userMail = userMailElem.value;
-    
 
-    for(i = 0; i < 1; i++) {
+    for(i = 0; i < mailList.length; i++) {
         
         if (userMail === mailList[i]){
             accessGranted = true;
