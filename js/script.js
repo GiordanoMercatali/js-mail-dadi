@@ -17,6 +17,7 @@ sendBtn.addEventListener("click", function(){
         
         if (userMail === mailList[i]){
             accessGranted = true;
+            break;
         } else{
             accessGranted = false;
         }
